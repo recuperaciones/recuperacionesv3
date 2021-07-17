@@ -1,0 +1,23 @@
+.titulos {
+  cursor: pointer;
+}
+
+.activo {
+  margin-left: 1em;
+  background-color: #dae7ff;
+  font-weight: bold;
+}
+
+.titulos:hover {
+  margin-left: 1em;
+  background-color: #dae7ff;
+  font-weight: bold;
+}
+
+.oculto {
+  display: none;
+}
+
+.clase-inactiva {
+  display: none;
+}
