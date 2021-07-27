@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <link rel="stylesheet" href="./assets/styles/sec.css">
   <style>
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,700;1,400&display=swap');
 </style>
@@ -16,7 +17,7 @@
       <div class="logo">
         <img src="./assets/img/new logo itc new.png" alt="logo itc">
       </div>
-       <nav class="header-nav">
+      <nav class="header-nav">
         <a href="./index.html"><p>Inicio</p></a>
       </nav>
     </div>
@@ -25,15 +26,15 @@
     <div class="container">
       <div class="player">
       <div class="clases">
-        <div class="titulos active">Clase 1</div>
-        <div class="titulos">Clase 2</div>
-        <div class="titulos">Clase 3</div>
-        <div class="titulos">Clase 4</div>
-        <div class="titulos">Clase 5</div>
-        <div class="titulos">Clase 6</div>
-        <div class="titulos">Clase 7</div>
-        <div class="titulos">Clase 8</div>
-        <div class="titulos">Clase 9</div>
+        <div id="clase1" class="titulos activo">Clase 1</div>
+        <div id="clase2" class="titulos inactivo">Clase 2</div>
+        <div id="clase3" class="titulos inactivo">Clase 3</div>
+        <div id="clase4" class="titulos inactivo">Clase 4</div>
+        <div id="clase5" class="titulos inactivo">Clase 5</div>
+        <div id="clase6" class="titulos">Clase 6</div>
+        <div id="clase7" class="titulos">Clase 7</div>
+        <div id="clase8" class="titulos">Clase 8</div>
+        <div id="clase9" class="titulos">Clase 9</div>
         <div class="titulos">Clase 10</div>
         <div class="titulos">Clase 11</div>
         <div class="titulos">Clase 12</div>
@@ -46,74 +47,29 @@
         <div class="titulos">Clase 19</div>
         <div class="titulos">Clase 20</div>
       </div>
-        <iframe class="video" width="560" height="315" src="https://www.youtube.com/embed/9KDUwt7cS7A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-      
-      <div class="clase-description">
-        <h1>Contenido:</h1>
-        <table>
-          <thead>
-            <tr>
-              <th>Contenido de la clase</th>
-              <th>comienzo</th>
-              <th>fin</th>
-            </tr>
-          </thead>
-          <tr>
-            <td>¿Qué es el marketing digital?</td>  
-            <td>00:04:00</td>  
-            <td>03:21:00</td>  
-          </tr>
-          <tr>
-            <td>Profesiones destacadas del MKTD</td>  
-            <td>03:21:00</td>  
-            <td>14:46:00</td>  
-          </tr>
-          <tr>
-            <td>Consultas y comentarios de los estudiantes</td>  
-            <td>14:46:00</td>  
-            <td>21:44:00</td>  
-          </tr>
-          <tr>
-            <td>Contendio a desarrollar en clases futuras</td>  
-            <td>21:44:00</td>  
-            <td>22:11:00</td>  
-          </tr>
-          <tr>
-            <td>Directorios locales</td>  
-            <td>22:11:00</td>  
-            <td>26:12:00</td>  
-          </tr>
-          <tr>
-            <td>Buscadores</td>  
-            <td>26:12:00</td>  
-            <td>27:34:00</td>  
-          </tr>
-          <tr>
-            <td>Redes Sociales</td>  
-            <td>27:34:00</td>  
-            <td>28:22:00</td>  
-          </tr>
-          <tr>
-            <td>Red display</td>  
-            <td>28:22:00</td>  
-            <td>35:42:00</td>  
-          </tr>
-          <tr>
-            <td>E-Mail Marketing</td>  
-            <td>35:42:00</td>  
-            <td>36:18:00</td>  
-          </tr>
-          <tr>
-            <td>Ventajas del marketing digital</td>  
-            <td>36:18:00</td>  
-            <td>43:51:00</td>  
-          </tr>
-        </table>
+        <iframe id="videoClase1" class="video clase-activa" src="https://www.youtube.com/embed/9KDUwt7cS7A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <iframe id="videoClase2" class="video clase-inactiva" src="https://www.youtube.com/embed/AfuiHrIn0Rw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <iframe id="videoClase3" class="video clase-inactiva" src="https://www.youtube.com/embed/oHaj3uDgiig" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <iframe id="videoClase4" class="video clase-inactiva" src="https://www.youtube.com/embed/kkJOn5EQNjU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      <div id="claseDescription1" class="clase-description clase-activa">
+        <h2>Clase 1: Introducción</h2>
+        <p>En esta clase veremos una introducción al marketing digital y diferencias con respecto a los métodos tradicionales de marketing.</p>
       </div>
+      <div id="claseDescription2" class="clase-description clase-inactiva">
+        <h2>Clase 2: Planificar Estrategias</h2>
+        <p>En esta clase veremos cómo planificar una estrategia comercial y los beneficios de la misma</p>
       </div>
+      <div id="claseDescription3" class="clase-description clase-inactiva">
+        <h2>Clase 3: Buscadores</h2>
+        <p>En esta clase veremos la estructura de los buscadores, funcionamiento de los mismos y también aprenderemos cómo posicionarnos de forma gratuita en los primeros puestos de búsqueda.
+</p>
       </div>
-    </div>
-        
+      <div id="claseDescription4" class="clase-description clase-inactiva">
+        <h2>Clase 4: Dominios Web</h2>
+        <p>En esta clase veremos conceptos sobre páginas web, también veremos cómo comprar un dominio.</p>
+      </div>
   </main>
+
+  <script src="./assets/js/sec.js"></script>
 </body>
 </html>
