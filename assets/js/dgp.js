@@ -1,6 +1,13 @@
 const descriptcion1 = document.getElementById("descripcion1");
 const descriptcion2 = document.getElementById("descripcion2");
 
+const clases = document.getElementsByClassName("clases")[0];
+
+clases.addEventListener("click", (e) => {
+  console.log(e.target.id);
+  alert("ah bueeee");
+});
+
 function saludo() {
   descriptcion1.classList.add("activa");
   descriptcion2.classList.remove("activa");
