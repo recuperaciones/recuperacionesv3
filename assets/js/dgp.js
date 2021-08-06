@@ -5,7 +5,6 @@ const clases = document.getElementsByClassName("clases")[0];
 
 clases.addEventListener("click", (e) => {
   console.log(e.target.id);
-  alert("ah bueeee");
 });
 
 function saludo() {
