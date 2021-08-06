@@ -19,7 +19,7 @@ header {
 @media screen and (max-width: 720px) {
   .container {
     margin: 30px auto;
-    width: 100vw;
+    width: 90vw;
   }
 
   .clases {
@@ -27,6 +27,7 @@ header {
   }
 
   header {
+    width: 100%;
     background: rgb(218, 231, 255);
     background: linear-gradient(
       248deg,
@@ -52,6 +53,7 @@ header {
     /* display: grid;
     grid-template-columns: 20% 80%;
     grid-template-rows: 50% 50%; */
+    width: 90vw;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
@@ -61,21 +63,14 @@ header {
     cursor: pointer;
     background-color: #f1f6ff;
   }
-  .titulos {
-    grid-column-start: 1;
-    border-bottom: 1px solid black;
-    margin-top: 5px;
-    padding: 5px;
-    width: 100%;
-    height: 30px;
-  }
+
   .video {
-    margin: 50px auto;
+    margin: 30px auto;
     padding: 10px;
     grid-column-start: 1;
     grid-column-end: 4;
-    width: 100%;
-    height: 250px;
+    width: 90vw;
+    /* height: 250px; */
     /* background-color: black; */
   }
 
@@ -194,6 +189,10 @@ header {
     font-weight: bold;
     color: black;
   }
+  .reproductor {
+    width: 50vh;
+    height: 60vh;
+  }
 }
 
 @media screen and (min-width: 721px) {
@@ -230,7 +229,8 @@ header {
   }
 
   .reproductor {
-    height: 40vh;
+    width: 80vh;
+    height: 60vh;
   }
 
   .clase-description {
