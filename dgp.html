@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <!-- The core Firebase JS SDK is always required and must be listed first -->
+  <script src="https://www.gstatic.com/firebasejs/8.9.1/firebase-app.js"></script>
   <link rel="stylesheet" href="./assets/styles/sec.css">
   <style>
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,700;1,400&display=swap');
@@ -47,7 +49,8 @@
         <div class="titulos">Clase 19</div>
         <div class="titulos">Clase 20</div>
       </div>
-      <iframe id="videoClase1" class="video clase-activa" src="https://www.youtube.com/embed/YjHsUtD4W4w" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<!--        <video  src="https://firebasestorage.googleapis.com/v0/b/recuperacionesv4.appspot.com/o/Rob%C3%B3tica%20280621.mp4?alt=media&token=64021e47-128e-4f3d-9b33-d0ba97e94604"></video>-->
+      <iframe id="videoClase1" class="video clase-activa" src="https://firebasestorage.googleapis.com/v0/b/recuperacionesv4.appspot.com/o/Rob%C3%B3tica%20280621.mp4?alt=media&token=64021e47-128e-4f3d-9b33-d0ba97e94604" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         <iframe id="videoClase2" class="video clase-inactiva" src="https://www.youtube.com/embed/Vik7gXP-8Wc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
       <div id="claseDescription1" class="clase-description clase-activa">
         <h2>Clase 1: Introducción</h2>
@@ -57,8 +60,22 @@
         <h2>Clase 2: Software</h2>
         <p>En esta clase estaremos presentando los herramientas de dibujo, copiar y duplicar objetos, orden de los mismos y herramientas de forma.</p>
       </div>
+      </div>
+    </div>
   </main>
-
+  <script>
+    // Your web app's Firebase configuration
+    var firebaseConfig = {
+      apiKey: "AIzaSyCqNwpjBuirxaaUPi13kNPwdwL62BJOlDQ",
+      authDomain: "recuperacionesv4.firebaseapp.com",
+      projectId: "recuperacionesv4",
+      storageBucket: "recuperacionesv4.appspot.com",
+      messagingSenderId: "786569254936",
+      appId: "1:786569254936:web:ed37bae30f00943e9e4b6d"
+    };
+    // Initialize Firebase
+    firebase.initializeApp(firebaseConfig);
+  </script>
   <script src="./assets/js/sec.js"></script>
 </body>
 </html>
