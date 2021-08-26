@@ -1,5 +1,6 @@
 const descriptcion1 = document.getElementById("descripcion1");
 const descriptcion2 = document.getElementById("descripcion2");
+const descriptcion3 = document.getElementById("descripcion3");
 
 const clases = document.getElementsByClassName("clases")[0];
 
@@ -15,3 +16,4 @@ function saludo2() {
   descriptcion1.classList.remove("activa");
   descriptcion2.classList.add("activa");
 }
+
